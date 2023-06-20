@@ -1,0 +1,109 @@
+.ContainerPartseven{
+    background-color: white;
+
+    min-height: 90%;
+    grid-template-columns: 1fr;
+    display: grid;
+    margin-top: 1rem;
+
+   
+}
+
+.ScrollView{
+  
+
+    min-width: 10rem;
+    min-height: 20rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    
+
+}
+
+
+@keyframes fluttering {
+    0%{
+        opacity: 0%;
+
+    }
+
+    100%{
+opacity: 100%;
+
+    }
+    
+}
+
+
+
+.WorkBoxes{
+    border: 1px white solid;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.GithubBox{
+    border: 1px white solid;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.GithubBox:hover{
+    border: 1px white solid;
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.ImgGithub:hover{
+    width: 100px;
+}
+.WorkBoxes:hover{
+
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+   text-decoration: underline;
+    cursor: pointer;
+
+}
+a{
+    text-decoration: none;
+    outline:invert;
+       color: black;
+}
+
+.phone{
+    visibility: hidden;
+
+}
+
+@media screen and (max-width:720px){
+    .ContainerPartTwo{
+    background-color: white;
+
+    min-height: 90%;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+
+   
+}
+
+}

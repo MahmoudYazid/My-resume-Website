@@ -1,0 +1,126 @@
+.ContainerPartThree{
+    background-color: black;
+min-height: 90%;
+    grid-template-columns: 1fr .5fr ;
+    display: grid;
+    margin-top: 1rem;
+    color: white;
+}
+
+.ScrollView{
+  
+
+    min-width: 10rem;
+    min-height: 20rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    direction: rtl;
+    
+
+    
+
+}
+
+.ScrollView a{
+  margin: 1rem;
+
+    
+
+}
+.title{
+text-align: center;
+    border-left: 2px solid white;
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    justify-content:center;
+      animation: fluttering 2s forwards infinite;
+
+
+    
+}
+
+
+@keyframes fluttering {
+    0%{
+        opacity: 0%;
+
+    }
+
+    100%{
+opacity: 100%;
+
+    }
+    
+}
+
+
+
+.WorkBoxes{
+        color: white;
+
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.GithubBox{
+        color: white;
+ 
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.GithubBox:hover{
+        color: white;
+
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.WorkBoxes:hover{
+ 
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    color: greenyellow;
+    cursor: pointer;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    outline:invert;
+       color: black;
+}
+
+
+
+@media screen and (max-width:720px){
+    .ContainerPartThree{
+    background-color: black;
+
+    min-height: 90%;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+
+   
+}
+
+}

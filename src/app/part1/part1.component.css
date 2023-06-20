@@ -1,0 +1,101 @@
+.ContainerPartOne{
+    background-color: black;
+
+    min-height: 90%;
+
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.MyPhoto{
+    display: block;
+    border-radius: 100%;
+    width: 15rem;
+    height: 15rem;
+    min-width: 10%;
+    min-height: 20%;
+}
+.TextContainer{
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+
+
+}
+.writing-animation{
+   
+    max-width: 14%;
+  overflow: hidden; 
+  animation: writing 3s forwards infinite;
+  white-space: nowrap;
+  border-right: 20px solid green; 
+  color: white;
+}
+
+.MyName{
+  color: white;
+}
+@media screen and (min-width:1488px){
+    @keyframes writing {
+  0% {
+    width: 0;
+    border-right:  0px solid green;
+  }
+  10% {
+    
+    border-right:  10px solid green;
+  }
+20% {
+    
+    border-right:  0px solid green;
+  }
+30% {
+    
+    border-right:  10px solid green;
+  }
+40% {
+    
+    border-right:  0px solid green;
+  }
+50% {
+    
+    border-right:  10px solid green;
+  }
+60% {
+    
+    border-right:  0px solid green;
+  }
+70% {
+    
+    border-right:  10px solid green;
+  }
+80% {
+    
+    border-right:  0px solid green;
+  }
+90% {
+    
+    border-right:  10px solid green;
+  }
+
+  100% {
+    border-right: 10px solid green;
+    width: 100%;
+  }
+}
+}
+
+@media screen and (max-width:1488px){
+.writing-animation{
+    text-align: center;
+   
+    width: 100%;
+    max-width: 100%;
+
+}
+
+}
