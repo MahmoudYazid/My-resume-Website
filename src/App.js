@@ -49,13 +49,13 @@ function App() {
   const helpOrder=()=>{
     
       const ContainerId=document.getElementById('newCodeContainer')
-    ContainerId.innerHTML = '<div>Write cv -> to open My Cv</div>' 
-    + '<div>Write work -> to open My past work</div>'+
+    ContainerId.innerHTML = '<div>Write cv -> to open My Cv</div>' +
       '<div>Write certificate -> to open My Certificates</div>'+
       '<div>Write exp -> to log My experiences</div>'+
       '<div>Write info -> to tell You everyThing</div>' +
       '<div>Write contact -> to tell You Mahmoud`s Contact info</div>' +
-      '<div>Write projects -> to tell You Mahmoud`s pastProjects info</div>' 
+      '<div>Write projects -> to tell You Mahmoud`s pastProjects info</div>' +
+      '<div>Write clear -> to clear the cmd</div>' 
     
   }
   const ShowCv = () => {
