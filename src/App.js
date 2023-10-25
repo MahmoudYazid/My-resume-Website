@@ -53,7 +53,9 @@ function App() {
     + '<div>Write work -> to open My past work</div>'+
       '<div>Write certificate -> to open My Certificates</div>'+
       '<div>Write exp -> to log My experiences</div>'+
-      '<div>Write info -> to tell You everyThing</div>' 
+      '<div>Write info -> to tell You everyThing</div>' +
+      '<div>Write contact -> to tell You Mahmoud`s Contact info</div>' +
+      '<div>Write projects -> to tell You Mahmoud`s pastProjects info</div>' 
     
   }
   const ShowCv = () => {
@@ -80,7 +82,21 @@ function App() {
       '<a href="/pharmacy certificate.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  pharmacy Ba Certificate</div></a>'
 
   }
+  const contactFunc = () => {
 
+    const ContainerId = document.getElementById('newCodeContainer')
+    ContainerId.innerHTML = '<div>Open Database .....</div>'
+      + '<div>Search For contact .....</div>' +
+      '<div class="text-bold hover:cursor-pointer hover:underline">this is mahmoud`s Gmail abuelyazi.software@gmail.com</div>' +
+
+      '<a href="https://www.facebook.com/Dr.MahmoudYazid/"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  Mahmoud`s Fcebook</div></a>' +
+      '<a href="https://www.linkedin.com/in/mahmoudyazid/"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  Mahmoud`s Linkedin </div></a>' +
+
+      '<div class="text-bold hover:cursor-pointer hover:underline">this is Mahmoud`s Phone : 01005648558 </div>' +
+      '<a href="https://www.upwork.com/freelancers/mahmoudy6"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  Mahmoud`s upwork </div></a>' +
+      '<a href="https://www.freelancer.com/u/MahmoudabuYazid"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  Mahmoud`s freelancer Account</div></a>'
+
+  }
   const Exp=()=>{
     const ContainerId = document.getElementById('newCodeContainer')
     ContainerId.innerHTML = '<div>Open Database .....</div>'
@@ -101,7 +117,28 @@ function App() {
     ContainerId.innerHTML = '<div>clear Done .... </div>'
       
   }
+  const PastProjextsFunc = () => {
+    const ContainerId = document.getElementById('newCodeContainer')
+    ContainerId.innerHTML = '<div>Past Projects Of Mahmoud .... </div>'+
+      '<div class="  text-[1.5rem] ">*internship Made Projects (Frontend)</div>' +
+      '<div> SocialHub Web-Page [<a href="https://github.com/MahmoudYazid/SocialHub-Ui" class="hover:underline">GitHub Link</a> - <a class="hover:underline" href="https://social-hub-ui.vercel.app/">Website Link</a> ]:  -> tech Uses : [React - next - tailwind  ]</div>' +
+      '<div> Augmentx Web-Page [<a class="hover:underline" href="https://github.com/MahmoudYazid/augmntxpages">GitHub Link</a> - <a class="hover:underline" href="https://augmntxpages.vercel.app/">Website Link</a> ]:  -> tech Uses : [React  - tailwind  ]</div>'+
+      '<div> SocialHub Blog Web-Page [<a class="hover:underline" href="https://social-hub-ui.vercel.app/blog/blog">Website Link</a> ]:  -> tech Uses : [React - next - tailwind  ]</div>' +
 
+      '<div class="  text-[1.5rem] ">*Freelance Made Projects (end to end)</div>' +
+      '<div> E-commerce Customized App For PHARAOH SEVONIERS RETAIL [<a class="hover:underline" href="https://github.com/MahmoudYazid/KingTUt">GitHub Link</a>  ]:  -> tech Uses : [React - next - tailwind  ]</div>' +
+      '<div> E-commerce Customized App For Real state [<a href="https://github.com/MahmoudYazid/real_state_e_commerce" class="hover:underline">GitHub Link</a>  ]:  -> tech Uses : [React - next - tailwind  ]</div>'+
+
+       '<div class="  text-[1.5rem] ">*Self Made Projects  </div>' +
+    '<div>pharmaclone in google play [<a href="https://github.com/MahmoudYazid/pharmaclone-limited" class="hover:underline">GitHub Link</a> -<a class="hover:underline" href="https://play.google.com/store/apps/details?id=com.pharmaclonetrailer"> Google Play Link</a> ] ->  Pharmacy Management App - tech Uses :[React Native]  </div>'+
+      '<div>Restauant Online System End-to-End (NextJs) [ <a href="https://github.com/MahmoudYazid/online-resturant-program"  class="hover:underline">GitHub Link</a> - <a class="hover:underline" href="https://online-resturant-program.vercel.app/" >Demo Link</a>  ] ->  tech Uses : [React - next - tailwind  ]</div>' +
+      '<div>Doctor Booking appointment App (end to end) (nextjs) [<a href="https://github.com/MahmoudYazid/BookingWebsite" class="hover:underline"> GitHub Link </a>- <a class="hover:underline" href="https://booking-website-iota.vercel.app/"> Demo Link </a>]:  -> tech Uses : [React - next - tailwind  ]</div>'+
+      '<div>Whats-App Clone [<a href="https://github.com/MahmoudYazid/WhatsApp-Cloning-Porject" class="hover:underline">GitHub Link </a>- <a href="https://whats-app-cloning-porject.vercel.app/" class="hover:underline"> Demo Link </a>]:  -> tech Uses : [React  - tailwind  ]</div>'+
+       '<div>Instegram  Clone [<a href="https://github.com/MahmoudYazid/InstegramCloning" class="hover:underline">GitHub Link </a>- <a class="hover:underline" href="https://instegram-cloning.vercel.app/"> Demo Link </a>]:  -> tech Uses : [React  - tailwind  ]</div>'
+
+    
+  
+  }
   const info=()=>{
     const ContainerId = document.getElementById('newCodeContainer')
     ContainerId.innerHTML = '<div class="  text-[1.5rem] ">*this is the cv .... </div>'+
@@ -118,9 +155,21 @@ function App() {
       '<a href="/ielts certificate.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  Ielts Certificate</div></a>' +
       '<a href="/code academy ui  ux.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  ui/ux  Certificate</div></a>' +
       '<a href="/pharmacy certificate.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  pharmacy Ba Certificate</div></a>'
+      + '<div class="  text-[1.5rem] ">*Search For contact .....</div>' +
+      '<div class="text-bold hover:cursor-pointer hover:underline">this is mahmoud`s Gmail abuelyazi.software@gmail.com</div>' +
+
+      '<a href="https://www.facebook.com/Dr.MahmoudYazid/"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  Mahmoud`s Fcebook</div></a>' +
+      '<a href="https://www.linkedin.com/in/mahmoudyazid/"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  Mahmoud`s Linkedin </div></a>' +
+
+      '<div class="text-bold hover:cursor-pointer hover:underline">this is Mahmoud`s Phone : 01005648558 </div>' +
+      '<a href="https://www.upwork.com/freelancers/mahmoudy6"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  Mahmoud`s upwork </div></a>' +
+      '<a href="https://www.freelancer.com/u/MahmoudabuYazid"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  Mahmoud`s freelancer Account</div></a>'
 
  
   }
+
+
+  
 const onKeyPressAction=(event)=>{
   if (event.key === "Enter" ) {
     switch (InputRef.current.value) {
@@ -146,6 +195,22 @@ const onKeyPressAction=(event)=>{
         break;
       case "clear":
         clear()
+
+        break;
+      case "contact":
+        contactFunc()
+
+        break;
+      case "projects":
+        PastProjextsFunc()
+
+        break;
+      case "lang":
+        PastProjextsFunc()
+
+        break;
+      case "Skills":
+        PastProjextsFunc()
 
         break;
       default:
