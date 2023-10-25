@@ -1,12 +1,51 @@
 import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRef } from 'react';
 import { FcOpenedFolder } from 'react-icons/fc'
 function App() {
   const InputRef=useRef('')
   const Container = useRef()
+  useEffect(()=>{
+    var canvas = document.querySelector('canvas'),
+      ctx = canvas.getContext('2d');
 
+    // Setting the width and height of the canvas
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    // Setting up the letters
+    var letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
+    letters = letters.split('');
+
+    // Setting up the columns
+    var fontSize = 10,
+      columns = canvas.width / fontSize;
+
+    // Setting up the drops
+    var drops = [];
+    for (var i = 0; i < columns; i++) {
+      drops[i] = 1;
+    }
+
+    // Setting up the draw function
+    function draw() {
+      ctx.fillStyle = 'rgba(0, 0, 0, .1)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      for (var i = 0; i < drops.length; i++) {
+        var text = letters[Math.floor(Math.random() * letters.length)];
+        ctx.fillStyle = '#0f0';
+        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+        drops[i]++;
+        if (drops[i] * fontSize > canvas.height && Math.random() > .95) {
+          drops[i] = 0;
+        }
+      }
+    }
+
+    // Loop the animation
+    setInterval(draw, 33);
+  })
   const helpOrder=()=>{
     
       const ContainerId=document.getElementById('newCodeContainer')
@@ -166,12 +205,9 @@ const onKeyPressAction=(event)=>{
   return (
 
     <div className="w-screen h-screen flex items-center justify-center">
-        <div className="bg-video absolute top-0 left-0 w-full h-full">
-        <video id="video-background" muted  autoPlay  loop className="w-full h-full object-cover">
-          <source autoPlay  muted loop src="/Futuristic interface  HUD sound effects.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        </div>
+        <canvas className="bg-video absolute top-0 left-0 w-full h-full">
+        
+        </canvas>
       <div className=" w-[80%] h-[90%] grid  grid-col-[1fr] lg:grid-cols-[1fr]  z-3 absolute">
           
 <div className='flex justify-center item-center'>
