@@ -123,7 +123,6 @@ function App() {
       '<div class="  text-[1.5rem] ">*internship Made Projects (Frontend)</div>' +
       '<div> SocialHub Web-Page [<a href="https://github.com/MahmoudYazid/SocialHub-Ui" class="hover:underline">GitHub Link</a> - <a class="hover:underline" href="https://social-hub-ui.vercel.app/">Website Link</a> ]:  -> tech Uses : [React - next - tailwind  ]</div>' +
       '<div> Augmentx Web-Page [<a class="hover:underline" href="https://github.com/MahmoudYazid/augmntxpages">GitHub Link</a> - <a class="hover:underline" href="https://augmntxpages.vercel.app/">Website Link</a> ]:  -> tech Uses : [React  - tailwind  ]</div>'+
-      '<div> SocialHub Blog Web-Page [<a class="hover:underline" href="https://social-hub-ui.vercel.app/blog/blog">Website Link</a> ]:  -> tech Uses : [React - next - tailwind  ]</div>' +
 
       '<div class="  text-[1.5rem] ">*Freelance Made Projects (end to end)</div>' +
       '<div> E-commerce Customized App For PHARAOH SEVONIERS RETAIL [<a class="hover:underline" href="https://github.com/MahmoudYazid/KingTUt">GitHub Link</a>  ]:  -> tech Uses : [React - next - tailwind  ]</div>' +
