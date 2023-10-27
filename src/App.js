@@ -3,9 +3,12 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import { useRef } from 'react';
 import { FcOpenedFolder } from 'react-icons/fc'
+import { useNavigate } from "react-router-dom";
+
 function App() {
   const InputRef=useRef('')
   const Container = useRef()
+  const Nav=useNavigate()
   useEffect(()=>{
     var canvas = document.querySelector('canvas'),
       ctx = canvas.getContext('2d');
@@ -46,18 +49,7 @@ function App() {
     // Loop the animation
     setInterval(draw, 33);
   })
-  const helpOrder=()=>{
-    
-      const ContainerId=document.getElementById('newCodeContainer')
-    ContainerId.innerHTML = '<div>Write cv -> to open My Cv</div>' +
-      '<div>Write certificate -> to open My Certificates</div>'+
-      '<div>Write exp -> to log My experiences</div>'+
-      '<div>Write info -> to tell You everyThing</div>' +
-      '<div>Write contact -> to tell You Mahmoud`s Contact info</div>' +
-      '<div>Write projects -> to tell You Mahmoud`s pastProjects info</div>' +
-      '<div>Write clear -> to clear the cmd</div>' 
-    
-  }
+
   const ShowCv = () => {
 
     const ContainerId = document.getElementById('newCodeContainer')
@@ -138,6 +130,15 @@ function App() {
     
   
   }
+
+  const SkillsFunc = () => {
+    const ContainerId = document.getElementById('newCodeContainer')
+    ContainerId.innerHTML = '<div>Open Database .....</div>'
+      + '<div class="underline  text-[1.5rem]">My Skills</div>' +
+      '<div>FrontEnd Skills -> React - Next - Typescript - JavaScript - redux - html - css - tailwind </div>' +
+      '<div>Additional  Skills -> Node  - Express - MongoDb  </div>' 
+
+  }
   const info=()=>{
     const ContainerId = document.getElementById('newCodeContainer')
     ContainerId.innerHTML = '<div class="  text-[1.5rem] ">*this is the cv .... </div>'+
@@ -167,49 +168,78 @@ function App() {
  
   }
 
+  const openGui = () => {
+    const ContainerId = document.getElementById('newCodeContainer')
+    ContainerId.innerHTML = '<div>Open Gui .... </div>' 
+     
 
+
+  }
+  const helpOrder = () => {
+
+    const ContainerId = document.getElementById('newCodeContainer')
+
+    ContainerId.innerHTML = '<div  >Write cv -> to open My Cv</div>' +
+      '<div   >Write certificate -> to open My Certificates</div>' +
+      '<div >Write exp -> to log My experiences</div>' +
+      '<div >Write info -> to tell You everyThing</div>' +
+      '<div >Write contact -> to tell You Mahmoud`s Contact info</div>' +
+      '<div >Write projects -> to tell You Mahmoud`s pastProjects info</div>' +
+      '<div >Write clear -> to clear the cmd</div>' +
+      '<div >Write gui -> to open Graphic user InterFace</div>'
+
+  }
   
 const onKeyPressAction=(event)=>{
   if (event.key === "Enter" ) {
     switch (InputRef.current.value) {
       case "help":
         helpOrder()
+        InputRef.current.value = ""
 
         break;
       case "cv":
         ShowCv()
+        InputRef.current.value = ""
 
         break;
       case "certificate":
         ShowCertificate()
+        InputRef.current.value = ""
 
         break;
       case "exp":
         Exp()
+        InputRef.current.value = ""
 
         break;
       case "info":
         info()
+        InputRef.current.value = ""
 
         break;
       case "clear":
         clear()
+        InputRef.current.value = ""
 
         break;
       case "contact":
         contactFunc()
+        InputRef.current.value = ""
 
         break;
       case "projects":
         PastProjextsFunc()
+        InputRef.current.value = ""
 
         break;
-      case "lang":
-        PastProjextsFunc()
-
+    
+      case "skills":
+        SkillsFunc()
+        InputRef.current.value = ""
         break;
-      case "Skills":
-        PastProjextsFunc()
+      case "gui":
+        Nav('/gui')
 
         break;
       default:
@@ -256,7 +286,7 @@ const onKeyPressAction=(event)=>{
             <div className='flex flex-row'>
               &rarr;
               
-              <input onKeyDown={onKeyPressAction} ref={InputRef} type='text' className='border-transparent border-2 outline-none	 bg-transparent'></input>
+              <input  onKeyDown={onKeyPressAction} ref={InputRef} type='text' className='border-transparent border-2 outline-none	 bg-transparent'></input>
 
             </div>
             </code></pre>
