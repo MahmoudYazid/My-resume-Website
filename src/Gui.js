@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './App.css'
-import ContactComponentGui from './files/contactComponentGui'
 export default function Gui() {
     
     const [visibility, Setvisibility] = useState('hidden')
@@ -20,33 +19,7 @@ export default function Gui() {
 
                 </div>
                 <div className='bg-white flex flex-wrap flex-row justify-start items-start gap-3 pt-3 pl-5'>
-                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
-                        <p >Experiences</p>
-                    </div>
-
-                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
-                        <p >Skill</p>
-                    </div>
-
-                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
-                        <p >Languages</p>
-                    </div>
-
-                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
-                        <p >Techincal Certificates</p>
-                    </div>
-
-                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
-                        <p >Projects</p>
-                    </div>
                   
-
-                    <ContactComponentGui></ContactComponentGui>
 
                     <a href="/Mahmoud Abuelyazid cv.pdf"   className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
                         <img src='/file_icon.png'></img>
@@ -58,11 +31,15 @@ export default function Gui() {
     }
   
   return (
-      <div id='file' className=' min-w-[100%] min-h-screen background-container items-center flex justify-center '>
+      <div id='file' className=' gap-5 min-w-[100%] min-h-screen background-container items-center flex justify-center '>
           <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
               <img   src='/file_icon.png'></img>
               <p >Mahmoud Yaizd Cv File</p>
         </div>
+          <a href='/cmd'  className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+              <img src='/cmd.png'></img>
+              <p >Cmd</p>
+          </a>
           <Card></Card>
 
     </div>
