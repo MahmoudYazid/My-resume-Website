@@ -64,11 +64,11 @@
 }
 
 .window-button.fullscreen {
-  background-color: #0f0;
+  background-color: rgb(255, 255, 255);
 }
 
 .window-button.fullscreen:hover {
-  background-color: rgb(7, 159, 7);
+  background-color: rgb(255, 255, 255);
   cursor: pointer;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .console pre code {
-  color: #0f0;
+  color: rgb(0, 0, 0);
   outline: none;
 }
 

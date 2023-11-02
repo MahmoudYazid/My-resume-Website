@@ -218,15 +218,16 @@ function Cmd() {
     const ScreenCode = () => (
         <div class="container">
             <div class="window" >
-                <div class="window-title">
+                <div class="window-title navbarbg">
                     <p>Yazid Console </p>
                     <div class="window-buttons">
-                        <div onClick={() => ChangeVisibiliy()} class="window-button fullscreen"></div>
-                        <div onClick={() => ChangeVisibiliy()} class="window-button reduce"></div>
-                        <div onClick={() => ChangeVisibiliy()} class="window-button close"></div>
+                        <button className='cancelbtm' onClick={() => ChangeVisibiliy()}>
+                            x
+                        </button>
+                      
                     </div>
                 </div>
-                <div class="console">
+                <div class="console navbarbg">
                     <pre><code>
                         Hello I am Mahmoud abuelyazid
                         <br></br>
