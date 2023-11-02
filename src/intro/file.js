@@ -6,7 +6,7 @@ export default function File() {
     const Nav = useNavigate()
 
     setTimeout(()=>{
-        Nav('/cmd')
+        Nav('/gui')
 
     },5000)
   return (
