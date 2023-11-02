@@ -56,7 +56,7 @@ function App() {
     ContainerId.innerHTML = '<div>Open Database .....</div>'
       + '<div>Search For Cv .....</div>' +
       '<div class="underline  text-[1.5rem]">Show The File ...... </div>'+
-      '<a href="/Mahmoud Abuelyazid cv.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open Cv</div></a>'
+      '<a href="/img/Mahmoud Abuelyazid cv.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open Cv</div></a>'
 
   }
 
@@ -66,12 +66,12 @@ function App() {
     ContainerId.innerHTML = '<div>Open Database .....</div>'
       + '<div>Search For certificate .....</div>' +
       '<div class="underline  text-[1.5rem]">Show The File ...... </div>' +
-      '<a href="/A1 CERTIFICATE.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  germany A1 level Certificate</div></a>'+
-      '<a href="/frontend.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  Frontend Certificate</div></a>' +
+      '<a href="/img/A1 CERTIFICATE.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  germany A1 level Certificate</div></a>'+
+      '<a href="/img/frontend.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  Frontend Certificate</div></a>' +
 
-      '<a href="/ielts certificate.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  Ielts Certificate</div></a>' +
-      '<a href="/code academy ui  ux.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  ui/ux  Certificate</div></a>' +
-      '<a href="/pharmacy certificate.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  pharmacy Ba Certificate</div></a>'
+      '<a href="/img/ielts certificate.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  Ielts Certificate</div></a>' +
+      '<a href="/img/code academy ui  ux.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  ui/ux  Certificate</div></a>' +
+      '<a href="/img/pharmacy certificate.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  pharmacy Ba Certificate</div></a>'
 
   }
   const contactFunc = () => {
@@ -142,19 +142,19 @@ function App() {
   const info=()=>{
     const ContainerId = document.getElementById('newCodeContainer')
     ContainerId.innerHTML = '<div class="  text-[1.5rem] ">*this is the cv .... </div>'+
-    '<a href="/Mahmoud Abuelyazid cv.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open Cv</div></a>'
+    '<a href="/img/Mahmoud Abuelyazid cv.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open Cv</div></a>'
       + '<div class="  text-[1.5rem] ">*My Experiences</div>' +
       '<div>InternShip in SocialHub </div>' +
       '<div>Freelancer At <a href="https://www.upwork.com/freelancers/mahmoudy6" class="hover:underline">(Click To Go) Upwork </a> And <a href="https://www.freelancer.com/u/MahmoudabuYazid" class="hover:underline">(Click To Go) FreeLance </a> </div>'
    
       + '<div class="  text-[1.5rem] ">*My Certificates</div>' 
 
-      + '<a href="/A1 CERTIFICATE.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  germany A1 level Certificate</div></a>' +
-      '<a href="/frontend.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  Frontend Certificate</div></a>' +
+      + '<a href="/img/A1 CERTIFICATE.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  germany A1 level Certificate</div></a>' +
+      '<a href="/img/frontend.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to open  Frontend Certificate</div></a>' +
 
-      '<a href="/ielts certificate.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  Ielts Certificate</div></a>' +
-      '<a href="/code academy ui  ux.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  ui/ux  Certificate</div></a>' +
-      '<a href="/pharmacy certificate.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  pharmacy Ba Certificate</div></a>'
+      '<a href="/img/ielts certificate.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  Ielts Certificate</div></a>' +
+      '<a href="/img/code academy ui  ux.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  ui/ux  Certificate</div></a>' +
+      '<a href="/img/pharmacy certificate.pdf"><div class="text-bold hover:cursor-pointer hover:underline">Click Here to  open  pharmacy Ba Certificate</div></a>'
       + '<div class="  text-[1.5rem] ">*Search For contact .....</div>' +
       '<div class="text-bold hover:cursor-pointer hover:underline">this is mahmoud`s Gmail abuelyazi.software@gmail.com</div>' +
 

@@ -53,7 +53,7 @@ export default function Gui() {
           <ProjectsComponentGui></ProjectsComponentGui>
           <Certificates></Certificates>
           <Experiences></Experiences>
-          <a href="/Mahmoud Abuelyazid cv.pdf" className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+          <a href="/img/Mahmoud Abuelyazid cv.pdf" className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
               <img src='/pdf-svgrepo-com.svg' className='w-[3rem] h-[3rem]' alt=''></img>
               <p >cv Pdf</p>
           </a>
