@@ -22,22 +22,22 @@ export default function ContactComponentGui() {
                 </div>
                 <div className='bg-white flex flex-wrap flex-row justify-start items-start gap-3 pt-3 pl-5'>
                     <a href='https://www.upwork.com/freelancers/mahmoudy6' className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
+                        <img src='/webpage94.ico'></img>
                         <p >upwork</p>
                     </a>
 
                     <a href='https://www.freelancer.com/u/MahmoudabuYazid'  className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
+                        <img src='/webpage94.ico'></img>
                         <p >freelance</p>
                     </a>
 
                     <a href='https://www.linkedin.com/in/mahmoud-abuelyazid-2a7211211/' className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
+                        <img src='/webpage94.ico'></img>
                         <p >linkedin</p>
                     </a>
 
                     <a href='https://www.facebook.com/Dr.MahmoudYazid/' className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
+                        <img src='/webpage94.ico'></img>
                         <p >facebook</p>
                     </a>
 

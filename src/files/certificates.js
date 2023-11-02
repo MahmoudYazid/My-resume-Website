@@ -21,27 +21,27 @@ export default function ContactComponentGui() {
 
                 </div>
                 <div className='bg-white flex flex-wrap flex-row justify-start items-start gap-3 pt-3 pl-5'>
-                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
+                    <a href='https://yazid-resume.vercel.app/frontend.pdf' className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/exp94.ico'></img>
                         <p >Frontend Certificate</p>
-                    </div>
+                    </a>
 
-                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
+                    <a href='https://yazid-resume.vercel.app/code%20academy%20ui%20%20ux.pdf' className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/exp94.ico'></img>
                         <p >ui ux Certificate</p>
-                    </div>
+                    </a>
 
-                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
+                    <a href='https://yazid-resume.vercel.app/img/A1%20CERTIFICATE.pdf' className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/exp94.ico'></img>
                         <p >Germany A1 Certificate</p>
-                    </div>
+                    </a>
 
-                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
+                    <a href='https://yazid-resume.vercel.app/img/ielts%20certificate.pdf' className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/exp94.ico'></img>
                         <p >ielts</p>
-                    </div>
-                    <a  className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
+                    </a>
+                    <a href="http://localhost:3000/img/pharmacy%20certificate.pdf" className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/exp94.ico'></img>
                         <p >pharmacy Certificate</p>
                     </a>
 

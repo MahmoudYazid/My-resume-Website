@@ -22,26 +22,52 @@ export default function ContactComponentGui() {
                 </div>
                 <div className='bg-white flex flex-wrap flex-row justify-start items-start gap-3 pt-3 pl-5'>
                     <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
-                        <p >upwork</p>
+                        <img src='/skills94.ico'></img>
+                        <p >React</p>
                     </div>
 
                     <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
-                        <p >freelance</p>
+                        <img src='/skills94.ico'></img>
+                        <p >Html</p>
                     </div>
 
                     <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
-                        <p >linkedin</p>
+                        <img src='/skills94.ico'></img>
+                        <p >Css</p>
                     </div>
 
                     <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-                        <img src='/file_icon.png'></img>
-                        <p >facebook</p>
+                        <img src='/skills94.ico'></img>
+                        <p >Javascript</p>
                     </div>
 
+                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/skills94.ico'></img>
+                        <p >tailwind</p>
+                    </div>
+                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/skills94.ico'></img>
+                        <p >Redux</p>
+                    </div>
+
+                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/skills94.ico'></img>
+                        <p >Next</p>
+                    </div>
+                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/skills94.ico'></img>
+                        <p >React</p>
+                    </div>
                   
+                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/skills94.ico'></img>
+                        <p >Node</p>
+                    </div>
+
+                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/skills94.ico'></img>
+                        <p >Express</p>
+                    </div>
                 </div>
             </div>
         )
