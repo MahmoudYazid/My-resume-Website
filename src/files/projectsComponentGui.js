@@ -50,7 +50,7 @@ export default function ContactComponentGui() {
     <>
           <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
               <img src='/file_icon.png'></img>
-              <p > contact </p>
+              <p >projects </p>
           </div>
           <Card></Card>
       </>
