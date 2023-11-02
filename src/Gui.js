@@ -54,13 +54,13 @@ export default function Gui() {
           <Certificates></Certificates>
           <Experiences></Experiences>
           <a href="/Mahmoud Abuelyazid cv.pdf" className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
-              <img src='/file_icon.png'></img>
+              <img src='/pdf-svgrepo-com.svg' className='w-[3rem] h-[3rem]' alt=''></img>
               <p >cv Pdf</p>
           </a>
           <Skills></Skills>
 
         <a href='/cmd'>
-          <img src='/Hopstarter-Sleek-Xp-Software-Command-Prompt.256.png' className='w-[3rem] h-[3rem]'></img>
+          <img src='/Hopstarter-Sleek-Xp-Software-Command-Prompt.256.png' alt='' className='w-[3rem] h-[3rem]'></img>
           </a>
     </div>
   )

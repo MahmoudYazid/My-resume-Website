@@ -23,23 +23,27 @@ export default function ContactComponentGui() {
                 <div className='bg-white flex flex-wrap flex-row justify-start items-start gap-3 pt-3 pl-5'>
                     <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
                         <img src='/file_icon.png'></img>
-                        <p >upwork</p>
+                        <p >Frontend Certificate</p>
                     </div>
 
                     <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
                         <img src='/file_icon.png'></img>
-                        <p >freelance</p>
+                        <p >ui ux Certificate</p>
                     </div>
 
                     <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
                         <img src='/file_icon.png'></img>
-                        <p >linkedin</p>
+                        <p >Germany A1 Certificate</p>
                     </div>
 
                     <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
                         <img src='/file_icon.png'></img>
-                        <p >facebook</p>
+                        <p >ielts</p>
                     </div>
+                    <a  className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                        <img src='/file_icon.png'></img>
+                        <p >pharmacy Certificate</p>
+                    </a>
 
                   
                 </div>
