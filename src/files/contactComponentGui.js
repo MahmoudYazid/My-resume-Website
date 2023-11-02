@@ -11,7 +11,7 @@ export default function ContactComponentGui() {
         return (
             <div className={`border-2 border-black absolute bg-black min-w-[60%] min-h-[80%] grid grid-rows-[2.5rem_1fr] ${visibility}`}>
 
-                <div className=' bg-blue-500 flex flex-row pr-5 items-center'>
+                <div className='navbarbg flex flex-row pr-5 items-center'>
                     <div className='mr-auto '><p>Mahmoud Yazid Contact folder</p></div>
                     <button className='cancelbtm' onClick={() => ChangeVisibiliy()}>
                         x

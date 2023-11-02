@@ -307,3 +307,8 @@
   outline: none;
 }
 
+.navbarbg{
+  background: hsl(0deg 0% 75%);
+  box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;
+ 
+}
