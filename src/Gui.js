@@ -5,6 +5,7 @@ import ProjectsComponentGui from './files/projectsComponentGui'
 import Certificates from './files/certificates'
 import Experiences from './files/experiences'
 import Skills from './files/skills'
+import Cmd from './files/cmd'
 
 export default function Gui() {
     
@@ -48,7 +49,7 @@ export default function Gui() {
   
   return (
       <div id='file' className='gap-5  min-w-[100%] min-h-screen background-container items-start flex flex-col pl-5 justify-start '>
-          
+
           <ContactComponentGui></ContactComponentGui>
           <ProjectsComponentGui></ProjectsComponentGui>
           <Certificates></Certificates>
@@ -58,10 +59,8 @@ export default function Gui() {
               <p >cv Pdf</p>
           </a>
           <Skills></Skills>
-
-        <a href='/cmd'>
-          <img src='/Hopstarter-Sleek-Xp-Software-Command-Prompt.256.png' alt='' className='w-[3rem] h-[3rem]'></img>
-          </a>
+          <Cmd></Cmd>
+        
     </div>
   )
 }
