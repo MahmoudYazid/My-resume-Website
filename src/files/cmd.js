@@ -233,7 +233,7 @@ function Cmd() {
                         I Am frontend Developer
                         <br></br>
 
-                        I will give you the opportunity to hack My Website
+                        I will give you the opportunity to hack My computer
 
 
                         <br></br>
