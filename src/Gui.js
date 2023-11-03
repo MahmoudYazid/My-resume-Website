@@ -48,7 +48,7 @@ export default function Gui() {
     }
   
   return (
-      <div id='file' className='gap-5  min-w-[100%] min-h-screen background-container items-start flex flex-col pl-5 justify-start '>
+      <div id='file' className='gap-5  min-w-[100%] min-h-screen background-container items-start  flex flex-col pl-3 justify-start '>
 
           <ContactComponentGui></ContactComponentGui>
           <ProjectsComponentGui></ProjectsComponentGui>

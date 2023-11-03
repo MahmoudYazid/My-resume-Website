@@ -1,5 +1,10 @@
 import React, { useState } from 'react'
 import '../App.css'
+import { IoReturnUpBackSharp, IoReturnUpForwardOutline } from 'react-icons/io5'
+import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
+
+import { AiOutlineHome, AiOutlineReload } from 'react-icons/ai'
+
 export default function ContactComponentGui() {
     const [visibility, Setvisibility] = useState('hidden')
     const ChangeVisibiliy = () => {
@@ -26,13 +31,14 @@ export default function ContactComponentGui() {
         )
     }
 
+
     const Card = () => {
 
         return (
-            <div className={`border-2 border-black absolute bg-black w-[80%] min-h-[80%] grid grid-rows-[2.5rem_1fr] ${visibility}`}>
+            <div className={`border-2 border-black absolute bg-black w-[80%] min-h-[80%] grid grid-rows-[2.5rem_2.5rem_4rem_1fr] ${visibility}`}>
 
                 <div className=' navbarbg flex flex-row pr-5 items-center'>
-                    <div className='mr-auto '><p>Mahmoud Yazid Contact folder</p></div>
+                    <div className='mr-auto '><p> projects </p></div>
                     <button className='cancelbtm' onClick={() => ChangeVisibiliy()}>
                         x
                     </button>
@@ -40,19 +46,53 @@ export default function ContactComponentGui() {
 
 
                 </div>
-                <div className=' overflow-y-scroll bg-white flex  flex-row justify-start items-start gap-3 pt-3 pl-5'>
-                    <CardProjects link_={ 'https://social-hub-ui.vercel.app/'} githublink={ 'https://github.com/MahmoudYazid/SocialHub-Ui'} title={'SocialHub Web-Page'}/>
+                <div className=' navbarbg flex flex-row  justify-center items-center'>
+                    <div className=' mr-5'><p> location</p></div>
+                    <input type='text' className='bg-white w-[50%]' value={'www.MahmoudYazidCv.com/projects'}>
+
+                    </input>
+                    <dev className='navbarbg h-[60%] w-[2rem] flex justify-center items-center' >
+                        <MdOutlineKeyboardArrowDown size={20}></MdOutlineKeyboardArrowDown>
+                    </dev>
+
+
+
+                </div>
+                <div className=' gap-5 navbarbg flex flex-row-reverse overflow-scroll pr-5 items-start'>
+                    <img src='/Netscape_icon.svg' className='cancelbtm w-[8em] h-[100%] ml-auto'></img>
+
+                    <button className='cancelbtm h-[90%]  ' >
+                        <AiOutlineReload size={20}></AiOutlineReload>
+                    </button>
+                    <button className='cancelbtm h-[90%]' >
+                        <AiOutlineHome size={20}></AiOutlineHome>
+                    </button>
+                    <button className='cancelbtm h-[90%]' >
+                        <IoReturnUpForwardOutline size={20}></IoReturnUpForwardOutline>
+                    </button>
+                    <button className='cancelbtm h-[90%] ' >
+                        <IoReturnUpBackSharp size={20}></IoReturnUpBackSharp>
+
+                    </button>
+
+
+                </div>
+
+                <div className=' overflow-y-scroll bg-white flex  flex-row justify-start items-center gap-3 pt-3 pl-5'>
+                    <CardProjects link_={'https://social-hub-ui.vercel.app/'} githublink={'https://github.com/MahmoudYazid/SocialHub-Ui'} title={'SocialHub Web-Page'} />
                     <CardProjects link_={'https://augmntxpages.vercel.app/'} githublink={'https://github.com/MahmoudYazid/augmntxpages'} title={'augmntx Web-Page'} />
                     <CardProjects link_={'https://online-resturant-program.vercel.app/'} githublink={'https://github.com/MahmoudYazid/online-resturant-program/tree/main'} title={'Restauant Online System End-to-End (NextJs)'} />
                     <CardProjects link_={'https://whats-app-cloning-porject.vercel.app/'} githublink={'https://github.com/MahmoudYazid/WhatsApp-Cloning-Porject'} title={'What`s-App Cloning Landing Page'} />
                     <CardProjects link_={'https://instegram-cloning.vercel.app/'} githublink={'https://github.com/MahmoudYazid/InstegramCloning'} title={'instegram Clone Landing Page'} />
                     <CardProjects link_={'https://play.google.com/store/apps/details?id=com.pharmaclonetrailer'} githublink={'https://github.com/MahmoudYazid/pharmaclone-limited'} title={'Pharmaclone App React Native'} />
-                    
-                  
+
+
+
                 </div>
             </div>
         )
     }
+
   return (
     <>
           <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
