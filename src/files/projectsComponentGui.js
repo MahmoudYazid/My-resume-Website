@@ -44,19 +44,9 @@ export default function ContactComponentGui() {
                     <CardProjects link_={ 'https://social-hub-ui.vercel.app/'} githublink={ 'https://github.com/MahmoudYazid/SocialHub-Ui'} title={'SocialHub Web-Page'}/>
                     <CardProjects link_={'https://augmntxpages.vercel.app/'} githublink={'https://github.com/MahmoudYazid/augmntxpages'} title={'augmntx Web-Page'} />
                     <CardProjects link_={'https://online-resturant-program.vercel.app/'} githublink={'https://github.com/MahmoudYazid/online-resturant-program/tree/main'} title={'Restauant Online System End-to-End (NextJs)'} />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
-                    <CardProjects />
+                    <CardProjects link_={'https://whats-app-cloning-porject.vercel.app/'} githublink={'https://github.com/MahmoudYazid/WhatsApp-Cloning-Porject'} title={'What`s-App Cloning Landing Page'} />
+                    <CardProjects link_={'https://instegram-cloning.vercel.app/'} githublink={'https://github.com/MahmoudYazid/InstegramCloning'} title={'Restauant Online System End-to-End (NextJs)'} />
+
                   
                 </div>
             </div>
