@@ -40,7 +40,7 @@ export default function ContactComponentGui() {
                         <img src='/exp94.ico'></img>
                         <p >ielts</p>
                     </a>
-                    <a href="http://localhost:3000/img/pharmacy%20certificate.pdf" className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
+                    <a href="/img/pharmacy certificate.pdf" className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
                         <img src='/exp94.ico'></img>
                         <p >pharmacy Certificate</p>
                     </a>
