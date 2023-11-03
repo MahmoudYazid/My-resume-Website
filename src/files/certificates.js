@@ -20,7 +20,7 @@ export default function ContactComponentGui() {
 
 
                 </div>
-                <div className='bg-white flex flex-wrap flex-row justify-start items-start gap-3 pt-3 pl-5'>
+                <div className='bg-white flex flex-wrap flex-row justify-center items-start gap-3 '>
                     <a href='https://yazid-resume.vercel.app/frontend.pdf' className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
                         <img src='/exp94.ico'></img>
                         <p >Frontend Certificate</p>
@@ -38,7 +38,7 @@ export default function ContactComponentGui() {
 
                     <a href='https://yazid-resume.vercel.app/img/ielts%20certificate.pdf' className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
                         <img src='/exp94.ico'></img>
-                        <p >ielts</p>
+                        <p >ielts Certificate</p>
                     </a>
                     <a href="/img/pharmacy certificate.pdf" className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
                         <img src='/exp94.ico'></img>
