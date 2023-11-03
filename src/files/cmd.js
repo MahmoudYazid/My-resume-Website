@@ -246,10 +246,9 @@ function Cmd() {
 
 
                         </div>
-                        <div className='flex flex-row'>
-                            &rarr;
-
-                            <input onKeyDown={onKeyPressAction} ref={InputRef} type='text' className='border-transparent border-2 outline-none	 bg-transparent'></input>
+                        <div className='flex flex-row gap-0'>
+                            <p>C:/YazidPortfolioAccess&gt;	 </p>
+                            <input onKeyDown={onKeyPressAction} ref={InputRef} type='text' className=' w-[100%]  border-transparent border-2 outline-none	 bg-transparent'></input>
 
                         </div>
                     </code></pre>
