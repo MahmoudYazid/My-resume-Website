@@ -38,7 +38,7 @@ export default function ContactComponentGui() {
             <div className={`border-2 border-black absolute bg-black w-[80%] min-h-[80%] grid grid-rows-[2.5rem_2.5rem_4rem_1fr] ${visibility}`}>
 
                 <div className=' navbarbg flex flex-row pr-5 items-center'>
-                    <div className='mr-auto '><p> projects </p></div>
+                    <div className='mr-auto '><p> projects - Netscape</p></div>
                     <button className='cancelbtm' onClick={() => ChangeVisibiliy()}>
                         x
                     </button>
