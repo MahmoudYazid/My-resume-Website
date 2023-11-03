@@ -31,7 +31,6 @@ export default function ContactComponentGui() {
                         <p >Html</p>
                     </div>
 
-                    <div onClick={() => ChangeVisibiliy()} className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
                     <div className='hover:bg-blue-200 hover:cursor-pointer flex flex-col justify-center items-center'>
                         <img src='/skills94.ico'></img>
                         <p >Css</p>
