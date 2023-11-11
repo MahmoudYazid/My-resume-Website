@@ -80,19 +80,19 @@ const ProjectsSwipper = () => {
                 <div class="swiper-wrapper ">
                    
                     <div class="swiper-slide ">
-                        <Card title={'Ielts Certificate'} img={'/ielts.png'} Demolink={'https://drive.google.com/file/d/16Zi_ZrBO34B4cP-PVtEkREjr-fZyp_Ze/view?usp=sharing'}></Card>
+                        <Card title={'Ielts Certificate'} img={'/ielts.png'} Demolink={'/img/ielts certificate.pdf'}></Card>
                     </div>
                     <div class="swiper-slide ">
-                        <Card title={'ui ux CodeAcademy introduction '} img={'/codeacademy.png'} Demolink={'https://drive.google.com/file/d/1iyZWRSRQhP6EeRgyhIjBZSrH3d9b-5l2/view?usp=sharing'}></Card>
+                        <Card title={'ui ux CodeAcademy introduction '} img={'/codeacademy.png'} Demolink={'/img/code academy ui  ux.pdf'}></Card>
                     </div>
                     <div class="swiper-slide ">
-                        <Card title={'A1 Germany Level'} img={'/A1.webp'} Demolink={'https://drive.google.com/file/d/1E7m9HI1C8BkByZ27CF3cvFCgDIkT1yQu/view?usp=sharing'}></Card>
+                        <Card title={'A1 Germany Level'} img={'/A1.webp'} Demolink={'/img/A1 CERTIFICATE.pdf'}></Card>
                     </div>
                     <div class="swiper-slide ">
-                        <Card title={'Frontend CodeAcademy pathway'} img={'/codeacademy.png'} Demolink={'https://drive.google.com/file/d/1K6ho2w_d1qbpch8z87qVrgll5vTIx391/view?usp=sharing'}></Card>
+                        <Card title={'Frontend CodeAcademy pathway'} img={'/codeacademy.png'} Demolink={'/img/frontend.pdf'}></Card>
                     </div>
                     <div class="swiper-slide flex justify-center items-center ">
-                        <Card title={'pharmacy Certificate'} img={'/certificates.png'} Demolink={'https://drive.google.com/file/d/1ZVHCoANI9I6AWQGlp1bNb1Xlaf_CTUdc/view?usp=sharing'}></Card>
+                        <Card title={'pharmacy Certificate'} img={'/certificates.png'} Demolink={'/img/pharmacy certificate.pdf'}></Card>
                     </div>
 
                 </div>
