@@ -18,7 +18,7 @@ const ProjectsSwipper = () => {
                     </div>
                 </div>
                 <a href={`${Demolink}`} className='border-2 border-black w-[100%]'>
-                <button class="w-[100%] hover:bg-sky-700 text-gray-50 bg-sky-800 py-2" >Demo Link</button>
+                <button class="w-[100%] hover:bg-sky-700 text-gray-50 bg-sky-800 py-2" >open certificate</button>
                 </a>
             </div>
         </div>
