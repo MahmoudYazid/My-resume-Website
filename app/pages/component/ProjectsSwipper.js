@@ -85,6 +85,9 @@ const ProjectsSwipper = () => {
                         <Card title={'SocialHub MainPage'}  img={'/screenshot_socialhub.jpg'} Demolink={'https://social-hub-ui.vercel.app/'}></Card>
                     </div>
                     <div class="swiper-slide ">
+                        <Card title={'Robotik'} img={'/robotik.png'} Demolink={'http://robotikeg.com'}></Card>
+                    </div>
+                    <div class="swiper-slide ">
                         <Card title={'Augmntx Page'} img={'/augmentx.jpg'} Demolink={'https://augmntxpages.vercel.app/'}></Card>
                     </div>
                     <div class="swiper-slide ">
